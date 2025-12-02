@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Footer Component</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      padding: 40px 20px;
+      border-top: 1px solid #000;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* ⚡ GRID: perfecte uitlijning tegenover elkaar */
+    .footer-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 2 gelijke kolommen */
+      gap: 40px;
+      width: 600px; /* houdt alles super netjes */
+    }
+
+    .opening h2 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      margin: 4px 0;
+    }
+
+    .contact p {
+      margin: 4px 0;
+    }
+  </style>
+
+</head>
+<body>
+
+  <footer>
+    <div class="footer-container">
+
+      <!-- LINKER KOLOM -->
+      <div class="opening">
+        <h2>Openingstijden</h2>
+
+        <div class="row">
+          <span>Ma–vr</span>
+          <span>12:00 – 17:00</span>
+        </div>
+
+        <div class="row">
+          <span>Zaterdag</span>
+          <span>10:00 – 17:00</span>
+        </div>
+      </div>
+
+      <!-- RECHTER KOLOM PRECIES ERTEGENOVER -->
+      <div class="contact">
+        <p>email&nbsp;&nbsp;&nbsp;&nbsp;: contact@noraflora.com</p>
+        <p>telefoon&nbsp;: 0612345678</p>
+        <p>adres&nbsp;&nbsp;&nbsp;&nbsp;: Zwolle Pannekoekendijk420B</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
