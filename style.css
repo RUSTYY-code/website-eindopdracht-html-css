@@ -394,6 +394,36 @@ footer {
     width: 100%;
 }
 
+#header2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home-blokken {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 15px;
+}
+
+.blok {
+  width: 350px;
+  height: 250px;
+  background-color: #d9edb5;
+  text-align: center;
+  border-radius: 15px;
+  overflow: hidden; 
+}
+
+.blok img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;  
+  display: block;      
+}
 
 @media (max-width: 900px) {
 
